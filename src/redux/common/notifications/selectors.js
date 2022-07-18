@@ -1,0 +1,1 @@
+export const selectNotifications = ({notifications: { data }}) => (data);

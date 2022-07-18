@@ -1,0 +1,95 @@
+
+
+.main {
+  display: flex;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 80px;
+}
+
+.leftSide {
+  padding: 0 80px;
+  margin-right: 180px;
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.imgBlock:hover {
+    transform: scale(1.2);
+}
+
+.imgBlock {
+  transition: transform 0.4s;
+  width: 450px;
+  height: 350px;
+}
+
+.name {
+  color: #41454d;
+  font-size: 2.5rem;
+}
+
+.stars {
+  display: flex;
+  gap: 4.5px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.price {
+  margin: 10px 0 35px 0;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem
+}
+
+.type {
+  color: #41454d;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.region {
+  margin: 20px 0;
+  font-weight: 500;
+  text-transform: capitalize;
+
+}
+
+.animationBottle {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+.bottle {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: spinnerBottle 3s infinite alternate ease-in-out;
+}
+
+@keyframes spinnerBottle {
+  100% {
+    transform: rotate(3600deg);
+  }
+}
+
+.descriptionBtn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.descriptionText {
+  width: 390px;
+}

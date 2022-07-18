@@ -1,0 +1,52 @@
+.btn {
+  color: #fff;
+  width: 50px;
+  border: 2px solid #004C8A;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #004C8A;
+}
+
+.content {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.count {
+  color: #161616;
+  width: 50px;
+  border: 2px solid #004C8A;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.addToCart {
+  gap: 20px;
+  color: #fff;
+  width: 100%;
+  border: 1px solid #004C8A;
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  padding: 12px 30px;
+  font-size: 20px;
+  min-width: 250px;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  background-color: #004C8A;
+}

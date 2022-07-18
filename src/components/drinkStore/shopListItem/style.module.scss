@@ -1,0 +1,45 @@
+.item {
+  width: 100%;
+  margin: 20px 0;
+  max-width: 300px;
+}
+
+.bottleImgBlock {
+  width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 330px;
+}
+
+.itemBlock {
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center
+}
+
+.priceTitle {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.name {
+  color: rgba(8, 6, 0, 1);
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottleImgBlock {
+  width: 250px;
+  height: 300px;
+}

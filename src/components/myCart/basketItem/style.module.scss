@@ -1,0 +1,83 @@
+.basketItemBlock {
+  gap: 20px;
+  display: flex;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  border-top: 1px solid #fff;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.leftSide {
+  gap: 20px;
+  width: 160px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  height: 100%;
+}
+
+.rightSide {
+  gap: 10px;
+  flex: 1;
+  display: flex;
+  min-height: 100px;
+  align-items: end;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 90%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.img, .name:hover {
+  opacity: 0.8;
+}
+
+.name, .price, .type, .region {
+  color: #3E4042;
+}
+.region, .type {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.price {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.region {
+  margin-top: 10px;
+}
+
+
+
+
+.removeIcon {
+  cursor: pointer;
+}
+
+.count {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 20px;
+  background: #fff;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
