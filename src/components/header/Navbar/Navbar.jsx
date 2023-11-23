@@ -50,13 +50,13 @@ export default function Navbar() {
 				{!user ? (
 					<>
 						<li>
-							<Link to={SIGN_IN_ROUTE}>
+							<Link to={SIGN_IN_ROUTE} className={styles.links}>
 								<CustomBtn style={{ background: MAIN_COLOR_BLUE }} text="Sign In" />
 							</Link>
 						</li>
 
 						<li>
-							<Link to={SIGN_UP_ROUTE}>
+							<Link to={SIGN_UP_ROUTE} className={styles.links}>
 								<CustomBtn style={{ background: MAIN_COLOR_CORAL }} text="Sign Up" />
 							</Link>
 						</li>

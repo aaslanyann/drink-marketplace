@@ -7171,14 +7171,14 @@ just-curry-it@^3.1.0:
   integrity sha512-Q8206k8pTY7krW32cdmPsP+DqqLgWx/hYPSj9/+7SYqSqz7UuwPbfSe07lQtvuuaVyiSJveXk0E5RydOuWwsEg==
 
 just-diff-apply@^5.2.0:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.3.1.tgz#30f40809ffed55ad76dccf73fa9b85a76964c867"
-  integrity sha512-dgFenZnMsc1xGNqgdtgnh7DK+Oy352CE3VZLbzcbQpsBs9iI2K3M0IRrdgREZ72eItTjbl0suRyvKRdVQa9GbA==
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.4.1.tgz#1debed059ad009863b4db0e8d8f333d743cdd83b"
+  integrity sha512-AAV5Jw7tsniWwih8Ly3fXxEZ06y+6p5TwQMsw0dzZ/wPKilzyDgdAnL0Ug4NNIquPUOh1vfFWEHbmXUqM5+o8g==
 
 just-diff@^5.0.1:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/just-diff/-/just-diff-5.0.3.tgz#4c9c514dec5526b25ab977590e3c39a0cf271554"
-  integrity sha512-a8p80xcpJ6sdurk5PxDKb4mav9MeKjA3zFKZpCWBIfvg8mznfnmb13MKZvlrwJ+Lhis0wM3uGAzE0ArhFHvIcg==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/just-diff/-/just-diff-5.1.1.tgz#8da6414342a5ed6d02ccd64f5586cbbed3146202"
+  integrity sha512-u8HXJ3HlNrTzY7zrYYKjNEfBlyjqhdBkoyTVdjtn7p02RJD5NvR8rIClzeGA7t+UYP1/7eAkWNLU0+P3QrEqKQ==
 
 kind-of@^6.0.2:
   version "6.0.3"
@@ -7467,9 +7467,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.4.4, lru-cache@^7.5.1, lru-cache@^7.7.1:
-  version "7.12.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.12.0.tgz#be2649a992c8a9116efda5c487538dcf715f3476"
-  integrity sha512-OIP3DwzRZDfLg9B9VP/huWBlpvbkmbfiBy8xmsXp4RPmE4A3MhwNozc5ZJ3fWnSg8fDcdlE/neRTPG2ycEKliw==
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.14.0.tgz#21be64954a4680e303a09e9468f880b98a0b3c7f"
+  integrity sha512-EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==
 
 lz-string@^1.4.4:
   version "1.4.4"
@@ -7955,9 +7955,9 @@ npm-pick-manifest@^7.0.0, npm-pick-manifest@^7.0.1:
     semver "^7.3.5"
 
 npm-profile@^6.0.3:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/npm-profile/-/npm-profile-6.1.0.tgz#2f32431c487cb21ef5882c9511f8be8a0b602d35"
-  integrity sha512-JHnBzSqS9xPa0M3g90zhaGElSVdxoAipGkraBaM6Jph2XiSiwFN1HmfRTqndYhDkXia2hWRWl8O5RbDvae++GA==
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/npm-profile/-/npm-profile-6.2.1.tgz#975c31ec75a6ae029ab5b8820ffdcbae3a1e3d5e"
+  integrity sha512-Tlu13duByHyDd4Xy0PgroxzxnBYWbGGL5aZifNp8cx2DxUrHSoETXtPKg38aRPsBWMRfDtvcvVfJNasj7oImQQ==
   dependencies:
     npm-registry-fetch "^13.0.1"
     proc-log "^2.0.0"
@@ -9332,7 +9332,7 @@ react-router@6.3.0:
   dependencies:
     history "^5.2.0"
 
-react-scripts@5.0.1:
+react-scripts@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
   integrity sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==

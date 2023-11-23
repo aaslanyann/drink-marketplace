@@ -11,7 +11,6 @@ import ShopList from './shopList/ShopList';
 import { selectShop, selectShopIsLoad } from '../../redux/common/shop/selector';
 import CustomPagination from '../shared/pagination/CustomPagination';
 import Footer from '../footer/Footer'
-import Notifications from '../shared/Notifications/Notifications'
 
 export default function DrinkStore() {
 	const shopItems = useSelector(selectShop);
